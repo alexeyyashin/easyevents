@@ -1,0 +1,23 @@
+{
+    "name": "alexeyyashin/easyevents",
+    "type": "library",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Yashin",
+            "email": "me@alexey-yashin.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AlexeyYashin\\EasyEvents\\": "src/"
+        },
+        "files": [
+            "src/easyevents.func.php"
+        ]
+    },
+    "require": {
+        "alexeyyashin/ducktyping": "^1.0"
+    }
+}
